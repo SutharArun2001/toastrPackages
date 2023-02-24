@@ -6,6 +6,13 @@
         "psr-4": {
             "Toastr\\Main\\":"packages/Toastr/main/src/"
         }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+            "Toastr\\Main\\ToastrServiceProvider"
+            ]
+        }
     }
     
 }
