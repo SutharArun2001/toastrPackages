@@ -1,0 +1,11 @@
+{
+    "name": "toastr/main",
+    "description": "this package for toastr.",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Toastr\\Main\\":"packages/Toastr/main/src/"
+        }
+    }
+    
+}
