@@ -4,13 +4,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Toastr\\Main\\":"packages/Toastr/main/src/"
+            "Toastr\\Main\\":"src/"
         }
     },
     "extra": {
         "laravel":{
             "providers":[
-            "Toastr\\Main\\ToastrServiceProvider"
+                "toastr\\main\\ToastrServiceProvider"
             ]
         }
     }
